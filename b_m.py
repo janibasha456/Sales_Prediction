@@ -12,7 +12,7 @@ st.set_page_config(page_title="Sales AI Predictor", page_icon="📈", layout="wi
 def load_model(model_name):
     model_mapping = {
         'Linear Regression': 'linear_model.pkl',
-        'Random Forest': 'rf_model.pkl',
+        'Random Forest': 'dt_model.pkl',
         'LightGBM': 'lgb_model.pkl',
         'Decision Tree': 'dt_model.pkl',
         'KNN': 'knn_model.pkl'
